@@ -1,0 +1,6 @@
+{
+  "python.analysis.extraPaths": [
+    "./libs/lib-a",
+    "./libs/lib-b"
+  ]
+}

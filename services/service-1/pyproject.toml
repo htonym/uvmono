@@ -1,0 +1,17 @@
+[project]
+name = "service-1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "lib-a",
+]
+
+[tool.uv.sources]
+lib_a = { path = "../../libs/lib-a", editable = true }
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.1",
+]
