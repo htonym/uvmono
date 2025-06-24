@@ -3,7 +3,7 @@ from lib_b.calc import add_two_nums
 
 
 def main():
-    print("Hello from service-2!")
+    print("Hello from service-xyz!")
     lib_name()
     print("3 + 4 =", add_two_nums(3, 4))
 

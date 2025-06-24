@@ -74,7 +74,7 @@ wheels = [
 ]
 
 [[package]]
-name = "service-2"
+name = "service-xyz"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [

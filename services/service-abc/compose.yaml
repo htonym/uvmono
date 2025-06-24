@@ -1,0 +1,6 @@
+
+
+services:
+  service-xyz:
+    # Build the image from the Dockerfile in the current directory
+    build: .

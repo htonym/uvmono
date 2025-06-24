@@ -3,7 +3,7 @@ from lib_a.req import send_request
 
 
 def main():
-    print("Hello from service-1!")
+    print("Hello from service-abc!")
     lib_name()
 
     result = send_request()

@@ -133,7 +133,7 @@ wheels = [
 ]
 
 [[package]]
-name = "service-1"
+name = "service-abc"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
