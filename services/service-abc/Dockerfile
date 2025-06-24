@@ -30,4 +30,4 @@ ENV PATH="/app/services/service/.venv/bin:$PATH"
 # Reset the entrypoint, don't invoke `uv`
 ENTRYPOINT []
 
-CMD ["uv","run","main.py"]
+CMD ["python","main.py"]
