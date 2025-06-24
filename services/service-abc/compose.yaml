@@ -1,6 +1,8 @@
 
 
 services:
-  service-xyz:
+  script:
     # Build the image from the Dockerfile in the current directory
-    build: .
+    build:
+      context: ../..
+      dockerfile: ./services/service-abc/Dockerfile
